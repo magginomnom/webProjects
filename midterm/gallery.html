@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        a:link, a:visited {
+        background-color: rgb(55, 11, 173);
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        box-shadow: 5px 7px rgb(44, 14, 128);
+        }
+
+        a:hover, a:active {
+        background-color: rgb(72, 0, 255);
+        }
+
+        ol {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        div.wrap {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        /* the title (shocker) of the home page */
+        #title {
+            width: 485px;
+            padding: 15px;
+            background-color: rgb(83, 22, 255);
+            box-shadow: 10px 10px rgb(66, 21, 190);
+            text-align: center;
+            margin: auto;
+            color: white;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="index.html">The Game</a></li>
+            <li><a href="about.html">How to play</a></li>
+            <li><a href="gallery.html">Internet Photos</a></li>
+        </ul>
+    </div>
+
+    <br>
+    <br>
+    <h1 id="title" style="font-size: 50px;">Photo Gallery</h1>
+    <br>
+    <img src="images/wizard.png" alt="wizard" style="position: absolute; left: 400px; top: 500px; width: 155px; height: 235px;">
+    <p class="text1" style="top: 600px; left: 600px;">Hello Adventurer! I'm Oliver and I <br> am your assistant. I will tell you <br> about these pictures</p>
+
+    <div class="alignpics">
+        <!-- lose the game -->
+        <img src="images/losethegame.jpg" alt="A sign saying you just lost the game" style="position: absolute; top: 800px; width: 300px; height: 200px; border: 5px double rgb(60, 6, 130);">
+        <p class="text1" style="top: 1000px;">This is someone trying to make other people <br> lose the game</p>
+
+        <!-- finchley central -->
+        <img src="images/fc.jpg" alt="Image of Finchley Central" style="position: absolute; top: 800px; left: 400px; border: 5px double rgb(60, 6, 130);">
+        <p class="text1" style="top: 1000px; left: 400px;">This is Finchley Central Station</p>
+
+        <!-- duckroll -->
+        <img src="images/duckroll.jpg" alt="a duck on wheels" style="position: absolute; top: 800px; left: 800px; border: 5px double rgb(60, 6, 130);">
+        <p class="text1" style="top: 1000px; left: 800px;">This is the Duckroll</p>
+
+        <!-- the button -->
+        <img src="images/button.jpg" alt="Image of a button" style="position: absolute; top: 1100px; border: 5px double rgb(60, 6, 130);">
+        <p class="text1" style="top: 1230px;">This is The Button after the experiment ended</p>
+
+        <!-- ascii faces -->
+        <img src="images/ascii.png" alt="ascii faces" style="position: absolute; width: 100px; height: 350px; top: 1100px; left: 500px; border: 5px double rgb(60, 6, 130);">
+        <p class="text1" style="top: 1230px; left: 650px;">⬅ These are some Ascii faces</p>
+
+    </div>
+    
+
+</body>
+</html>

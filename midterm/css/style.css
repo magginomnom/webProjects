@@ -1,0 +1,198 @@
+body {
+    background-color: chartreuse;
+}
+
+.container {
+    width: 1250;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgb(255, 0, 0);
+    border: 50px groove rgb(72, 0, 255);
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+    
+}
+
+.nav li {
+    display:inline;
+    margin: 90px;
+    font-size: larger;
+}
+
+/* box for info abt the game */
+.box2 {
+    position: absolute;
+    width: 250px;
+    height: 470px;
+    padding: 15px;
+    background-color: rgb(83, 22, 255);
+    box-shadow: 10px 10px rgb(66, 21, 190);
+    text-align: center;
+    color: white;
+    top: 590px;
+
+}
+
+/* box for info abt finchley central */
+.box3 {
+    position: absolute;
+    width: 250px;
+    height: 410px;
+    padding: 15px;
+    background-color: rgb(83, 22, 255);
+    box-shadow: 10px 10px rgb(66, 21, 190);
+    text-align: center;
+    color: white;
+    top: 1110px;
+    left: 950px;
+
+}
+
+/* The button */
+.box4 {
+    position: absolute;
+    width: 250px;
+    height: 540px;
+    padding: 15px;
+    background-color: rgb(83, 22, 255);
+    box-shadow: 10px 10px rgb(66, 21, 190);
+    text-align: center;
+    color: white;
+    top: 1680px;
+
+}
+
+/* emojis */
+.box5 {
+    position: absolute;
+    width: 250px;
+    height: 480px;
+    padding: 15px;
+    background-color: rgb(83, 22, 255);
+    box-shadow: 10px 10px rgb(66, 21, 190);
+    text-align: center;
+    color: white;
+    top: 2280px;
+    left: 950px;
+
+}
+
+/* rickroll */
+.box6 {
+    position: absolute;
+    width: 250px;
+    height: 580px;
+    padding: 15px;
+    background-color: rgb(83, 22, 255);
+    box-shadow: 10px 10px rgb(66, 21, 190);
+    text-align: center;
+    color: white;
+    top: 2880px;
+
+}
+
+/* click here for pictures */
+.box7 {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    padding: 15px;
+    background-color: rgb(83, 22, 255);
+    box-shadow: 10px 10px rgb(66, 21, 190);
+    text-align: center;
+    color: white;
+    top: 3630px;
+    left: 950px;
+
+}
+
+/* lets start box - red */
+.letsstart {
+    width: 400px;
+    height: 50px;
+    padding: 15px;
+    background-color: red;
+    box-shadow: 10px 10px rgb(188, 1, 1);
+    text-align: center;
+    color: rgb(60, 6, 130);
+    position: absolute;
+    top: 560px;
+    left: 430px;
+
+}
+
+/* box for backstory */
+.aboutpage1 {
+    width: 700px;
+    padding: 15px;
+    background-color: rgb(83, 22, 255);
+    box-shadow: 10px 10px rgb(66, 21, 190);
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 800px;
+    left: 400px;
+}
+
+/* Box for How to play */
+.aboutpage2 {
+    width: 405px;
+    padding: 15px;
+    background-color: rgb(83, 22, 255);
+    box-shadow: 10px 10px rgb(66, 21, 190);
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 1580px;
+    left: 400px;
+}
+
+/* Cavern Heading */
+.caverns {
+    border: 2px solid rgb(188, 1, 1);
+    font-size: 30px;
+    color: rgb(60, 6, 130);
+}
+
+/* Hi Adventurer, follow the path and hope luck is on your side today! */
+.text1 {
+    color: rgb(60, 6, 130);
+    font-weight: bold;
+    position: absolute;
+}
+
+/* Correct Answer */
+.answer1 {
+    font-weight: bold;
+    position: absolute;
+}
+
+.correct1 {
+    display: none;
+    position: absolute;
+}
+
+.answer1:focus + .wrong1 {
+    display: block;
+    
+}
+
+/* Wrong Answer */
+.answer2 {
+    font-weight: bold;
+    position: absolute;
+}
+
+.wrong1 {
+    display: none;
+    position: absolute;
+}
+
+.answer2:focus + .correct1 {
+    display: block;
+    
+}
+

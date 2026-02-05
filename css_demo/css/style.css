@@ -1,0 +1,35 @@
+body {
+    background-color: chartreuse;
+}
+
+.container {
+    width: 1250;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgb(255, 0, 0);
+    border: 50px groove rgb(72, 0, 255);
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+    
+}
+
+.nav li {
+    display:inline;
+    margin-right: 200px;
+    font-size: larger;
+}
+
+.div-test {
+    background-color: rgb(255, 111, 0);
+    text-align: center;
+    color:rgb(85, 0, 255) ;
+}
+
+.murica {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}

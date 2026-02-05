@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananya | JS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>JS intro</h1>
+
+    <h2>Did you like the jokes?</h2>
+    <p><a href="https://www.google.com" target="_blank" onclick="alert('DONT LEAVE'), alert('PLEASE'), alert('I NEED YOU')">Search Google</a></p>
+    <br>
+    <h2>next I am going to show you math *check notes* wait math?</h2>
+    <p>What is 1+1</p>
+    <button onclick="document.getElementById('add').innerHTML=1+1">Click me to find the answer</button>
+    <p id="add"></p>
+
+    <br>
+    <h2>Now we are changing text</h2>
+    <button style="background-color: red;" onclick="document.getElementById('change-text').innerHTML='Bruh I told you not to.'">Dont click here</button>
+    <p id="change-text"></p>
+
+    <br>
+    <h2>Lets also add date and time</h2>
+    <button onclick="document.getElementById('date').innerHTML=Date()">Click me for a date 🌹</button>
+    <p id="date"></p>
+
+    <br>
+    <h2>Now we are gonna use a function to add text to a page</h2>
+    <button onclick="pFun()">Click to run the function</button>
+    <p id="p-fun"></p>
+
+    <br>
+    <h2>How to return user data with JS?</h2>
+    <button onclick="askName()">Click me to be asked a question</button>
+    <p id="ask-name"></p>
+
+    <br>
+    <h2>How do we ask other questions with JS?</h2>
+    <button onclick="askQuestion()">Click here for the Question</button>
+    <p id="question"></p>
+
+    <script>
+        alert('Hello World!');
+        alert('do you want some jokes?');
+        alert('Sounds like a yes!');
+        alert('What falls, but does not break, and what breaks but does not fall?');
+        alert('Night falls and day breaks');
+        alert('What has four wheels and flies?');
+        alert('The town garbage wagon');
+        alert('Where may you find roads without carts, forests without trees, cities without houses?');
+        alert('A map');
+        alert('A long snake with a stinging bite, I stay coiled up unless I must fight. What am I?');
+        alert('A whip');
+        alert('Who (or what) knows all languages?');
+        alert('An echo.');
+        alert('What turns everything around but does not move?');
+        alert('A mirror');
+        alert('What\'s black when you get it, red when you use it, and white when you\'re done with it?');
+        alert('Charcoal');
+        alert('Forwards I\'m heavy, backwards I\'m not. What am I?');
+        alert('A ton');
+        alert('What can go up a chimney down, but can\'t go down a chimney up?');
+        alert('An umbrella');
+        alert('When you are carrying a barrel full of water, what can you add to it to make it lighter?');
+        alert('A hole');
+        alert('With pointed fangs it sits in wait. With piercing force it doles out fate, Over bloodless victims proclaiming its might. Eternally joining in a single bite.');
+        alert('A stapler');
+        alert('What flies forever but never rests?');
+        alert('The wind');
+        alert('What question can you never answer yes to?');
+        alert('Are you asleep?');
+        alert('How do you hurt a dragon?');
+        alert('With rainbow glitter and a sword');
+        alert('What can you break, even if you never pick it up or touch it?');
+        alert('A promise');
+        alert('Who is the Father of all fruits?');
+        alert('Papa-ya');
+        alert('How do you make an egg roll?');
+        alert('You push it');
+        alert('What would bears be without bees?');
+        alert('Ears');
+        alert('Why do cows wear bells?');
+        alert('What did the triangle say to the circle?');
+        alert('You\'re pointless');
+        alert('RIP, boiling water...');
+        alert('You will be mist.');
+        alert('I ordered a chicken and an egg online.');
+        alert('I\'ll let you know what comes first.');
+        alert('What do lawyers wear to court?');
+        alert('Lawsuits.');
+        alert('What lights up a soccer stadium?');
+        alert('A soccer match.');
+        alert('What’s the difference between a poorly dressed man on a tricycle and a well-dressed man on a bicycle?');
+        alert('Attire.');
+        alert('A bossy man walked into a bar…');
+        alert('And ordered everyone a round.');
+        alert('What do you call a fish without an eye?');
+        alert('Fsh.');
+        alert('Two fish are in a tank.');
+        alert('One turns to the other and says, “Any idea how to drive this thing?”');
+        alert('Why can\'t you trust the king of the jungle?');
+        alert('Because he\'s always lion.');
+        alert('What do sea monsters eat?');
+        alert('Fish and ships.?');
+        alert('How do you organize a space party?');
+        alert('You planet.');
+        alert('What did 0 say to 8?');
+        alert('Nice belt');
+        alert('What did the drummer name her twin daughters?');
+        alert('Anna 1, Anna 2');
+        alert('Why do mushrooms get invited to all the parties?');
+        alert('They are fungis!');
+        alert('Why shouldn’t you tell secrets in a cornfield?');
+        alert('There are too many ears');
+        alert('How bad were the fish’s grades?');
+        alert('They were below \'C\' level.');
+        alert('What do you call a shoe made out of a banana?');
+        alert('A slipper');
+        alert('I’m reading a book about anti-gravity.');
+        alert('I can\'t put it down.');
+        alert('What kind of cheese isn’t yours?');
+        alert('Nacho cheese.');
+        alert('How does the moon cut his hair?');
+        alert('Eclipse it');
+        alert('What’s brown and sticky?');
+        alert('A stick');
+        alert('What do you call a sad cup of coffee?');
+        alert('Depresso');
+        alert('What happens when a snowman throws a tantrum?');
+        alert('He has a meltdown.');
+        alert('What did the janitor say when he jumped out of the closet?');
+        alert('Supplies');
+        alert('What did the worker at the rubber band factory say when he was fired?');
+        alert('Oh, snap.');
+        alert('Why can’t a nose be 12 inches long?');
+        alert('Because then it would be a foot.');
+        alert('Where does the general put his armies?');
+        alert('In his sleevies.');
+        alert('What do you call a magician that loses his magic?');
+        alert('Ian.');
+        alert('Why did the golfer bring two pairs of pants?');
+        alert('In case he got a hole-in-one.');
+        alert('What do you call a sleeping dinosaur?');
+        alert('A dino-snore');
+        alert('What did the football coach say to the broken vending machine?');
+        alert('Give me my quarterback.');
+        alert('Why did the strawberry cry?');
+        alert('He found himself in a jam.');
+        alert('What did 50 Cent do when he was hungry?');
+        alert('58!');
+        alert('Why is Peter Pan always flying?');
+        alert('Because he Neverlands.');
+        alert('Why can’t you trust duck doctors?');
+        alert('They’re all quacks.?');
+        alert('How do you know if a vampire is unwell?');
+        alert('Because he\'ll be coffin.');
+        alert('What kind of music do bubbles hate?');
+        alert('Pop');
+        alert('How did the painting end up in prison?');
+        alert('It was framed');
+        alert('How did the bullet lose its job?');
+        alert('It got fired.');
+        alert('Why is grass so dangerous?');
+        alert('It’s full of blades.');
+        alert('What’s orange and sounds like a carrot?');
+        alert('A parrot.');
+        alert('Why do French people eat snails?');
+        alert('They don’t like fast food.');
+        alert('How do billboards talk?');
+        alert('Sign language.');
+        alert('What’s America’s favorite soda?');
+        alert('Mini soda.');
+        alert('How was Rome split in two?');
+        alert('With a pair of Caesars.');
+        alert('Why can’t you give Elsa a balloon?');
+        alert('She’ll let it go.');
+        alert('Why is Peter Pan always flying?');
+        alert('He neverlands.');
+        alert('How do you follow a book?');
+        alert('You track their footnotes.');
+        alert('Why are astronauts so clean?');
+        alert('They take meteor showers.');
+        alert('Why are ghosts bad liars?');
+        alert('They’re totally see-through.');
+        alert('How do poets say hello?');
+        alert('Haven’t we metaphor?');
+        alert('How did the art competition end?');
+        alert('In a draw.');
+        alert('Where can you buy soup in bulk?');
+        alert('The stock market.');
+        alert('Why do bees have sticky hair?');
+        alert('They use honeycombs.');
+        alert('What do you call a priest who becomes a lawyer?');
+        alert('A father-in-law.');
+        alert('Why do computers overheat?');
+        alert('They need to vent.');
+        alert('What did one pickle say to the other?');
+        alert('Dill with it.');
+        alert('What do you call a fake noodle?');
+        alert('An impasta.');
+        alert('What do you call a cup of coffee with a pair of trousers in it?');
+        alert('A cupachinos.');
+        alert('How does Reese eat her ice cream?');
+        alert('Witherspoon.');
+        alert('What is the favorite fruit of twins?');
+        alert('Pears.');
+        alert('What would you call a peanut in space?');
+        alert('An astronut.');
+        alert('I could tell you a pizza joke… ');
+        alert('But it would probably be cheesy.');
+        alert('Excuse me sir, will my pizza be long?');
+        alert('No, it’ll be round.');
+        alert('What are spiders really good at?');
+        alert('Surfing the web.');
+        alert('What do you call an alligator detective?');
+        alert('An investi-gator.');
+        alert('Why aren’t koalas considered bears?');
+        alert('They don’t have the right koala-fications.');
+        alert('What’s the smartest insect?');
+        alert('A spelling bee!');
+        alert('Why didn’t the lion win the race?');
+        alert('Because he was racing a cheetah.');
+        alert('What kind of jacket does an octopus wear?');
+        alert('An army jacket.');
+        alert('I was told I needed to stop acting like a flamingo... ');
+        alert('So I put my foot down.');
+        alert('Why do pancakes always win at baseball?');
+        alert('They have the best batter.');
+        alert('What do runners eat before a race?');
+        alert('Nothing. They fast.');
+        alert('What do you call an unpredictable camera?');
+        alert('A loose Canon.');
+        alert('Why shouldn\'t you use a broken pencil?');
+        alert('Because it\'s point-less.');
+        alert('Why couldn’t the sailor learn the alphabet?');
+        alert('He kept getting lost at C.');
+        alert('What do you call a skeleton with only a head?');
+        alert('A nobody :(');
+        alert('Why do ghosts like to take the elevator?');
+        alert('It lifts their spirits.');
+        alert('What do you call a patronizing bear?');
+        alert('A pan-duh.');
+        alert('Why did the scarecrow win an award?');
+        alert('He was outstanding in his field.');
+        alert('Why didn\'t the skeleton ever go on dates?');
+        alert('He didn\'t have the guts to ask anyone.');
+        alert('Do you want to hear a construction joke?');
+        alert('Sorry, I\’m still working on it.');
+        alert('Why doesn\'t Dracula have any friends?');
+        alert('He\'s a bit of a pain in the neck.');
+        alert('Why shouldn\'t you marry a calendar?');
+        alert('Its days are numbered.');
+        alert('What do you call a detective that accidentally solves the case?');
+        alert('Sheer Luck Holmes.');
+        alert('What should you do if you’re cold?');
+        alert('Stand in the corner, it’s 90 degrees.');
+        alert('Why did Shakespeare always write with a pen?');
+        alert('Because pencils made him ask ‘2B or not 2B’?');
+        alert('What does one eye say to the other eye?');
+        alert('Something between us smells.');
+        alert('Why should you never trust stairs?');
+        alert('They’re always up to something.');
+        alert('What’s the spookiest kind of author?');
+        alert('A ghost writer.');
+        alert('What did the comedian say to Harry Potter?');
+        alert('Why so Sirius?');
+        alert('Why do we tell actors to "break a leg"?');
+        alert('Because every play has a cast.');
+        alert('What’s an astronaut’s favorite part of a keyboard?');
+        alert('The space bar.');
+        alert('Did you hear about the two people who stole a calendar? ');
+        alert('They each got six months.');
+        alert('Did you hear about the actor falling through the floorboards?');
+        alert('He was just going through a stage.');
+        alert('Did you hear about the group ski trip?');
+        alert('It went downhill fast.');
+        alert('Why did you decide to get rid of your vacuum?');
+        alert('It was just collecting dust.');
+        alert('I’m friends with 25 letters of the alphabet… ');
+        alert('I don’t know why.');
+        alert('What did the shark say when he ate the clownfish?');
+        alert('This tastes a little funny.');
+        alert('What did the buffalo say when his son left for college?');
+        alert('Bison.');
+        alert(' Why did the yogurt go to the art exhibition?');
+        alert('Because it was cultured.');
+        alert('What did the lettuce say to the celery?');
+        alert('Quit stalking me!?');
+        alert('What do you call a train carrying bubblegum?');
+        alert('A chew-chew train.');
+        alert('“Did you hear about the guy who invented the knock-knock joke?');
+        alert('He won the ‘no-bell’ prize.”');
+        alert('Why did the chicken go to the séance?');
+        alert('To get to the other side.');
+
+        function pFun() {
+            var p = document.getElementById('p-fun');
+            p.innerHTML='Wow good job';
+            p.style.color='blue';
+            p.style.fontSize='300px';
+            p.style.textAlign="center";
+        }
+    </script>
+
+    
+    
+</body>
+</html>
