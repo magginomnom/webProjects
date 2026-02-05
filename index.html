@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+        a:link, a:visited {
+            background-color: rgb(55, 11, 173);
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 5px 7px rgb(44, 14, 128);
+        }
+
+        a:hover, a:active {
+            background-color: rgb(72, 0, 255);
+        }
+
+
+         /* for all ols there is no formatting of any sort */
+        ol {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        div.wrap {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        /* the title (shocker) of the home page */
+        #title {
+            width: 600px;
+            padding: 15px;
+            background-color: rgb(83, 22, 255);
+            box-shadow: 10px 10px rgb(66, 21, 190);
+            text-align: center;
+            margin: auto;
+            color: white; 
+        }
+
+        /* you lost the game box - under title */
+        #box1 {
+            width: 300px;
+            padding: 15px;
+            background-color: rgb(83, 22, 255);
+            box-shadow: 10px 10px rgb(66, 21, 190);
+            text-align: center;
+            margin: auto;
+            color: white; 
+        }
+
+        #howtoplay {
+            position: absolute;
+            top: 700px;
+            left: 580px;
+        }
+
+        #howtoplay:hover {
+            font-size: large;
+        }
+
+        button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(60, 6, 130);
+        }
+
+        button:hover {
+            background-color: rgb(111, 58, 224);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="index.html">The Game</a></li>
+            <li><a href="about.html">How to play</a></li>
+            <li><a href="gallery.html">Internet Photos</a></li>
+        </ul>
+    </div>
+
+    <br>
+    <br>
+    <h1 id="title" style="font-size: 50px;">Welcome to The Cave of Riddles</h1>
+    <br>
+    <p id="box1">By the way, you lost "The Game"</p>
+
+
+    <div class="wrap"> 
+
+        <!-- the game -->
+        <div class="box2">
+            <h2>What is "The Game"?</h2>
+            <p>"The Game" is a popular mind game where the only objective is to not think of it. There are only 3 rules: </p>
+            <ol>
+                <li>Rule #1: Everyone in the world is playing The Game. You cannot refuse to play The Game; it does not require consent to play and you can never stop playing.</li>
+                <br>
+                <li>Rule #2: Whenever you think of The Game, you lose.</li>
+                <br>
+                <li>Rule #3: You must announce when you lose. This could be verbally or on social media.</li>
+                <br>
+                <li>A website about The Game: <br><br><a href="http://www.losethegame.com/" target="_blank">losethegame.com</a></li>
+            </ol>
+        </div>
+
+        <!-- finchley central -->
+        <div class="box3">
+            <h2>Finchley Central</h2>
+            <p>Similar to "The Game", Finchley Central is also a mind game where two players take turns naming stations in London Underground.</p>
+            <br>
+            <p>The way you win is by being the first person to say the station "Finchley Central"</p>
+            <br>
+            <p>It may seem like the obvious way to win is to say "Finchley Central" as your first move but it may deprive you of a more satisfying win down the line.</p>
+        </div>
+
+        <!-- the button -->
+        <div class="box4">
+            <h2>The Button</h2>
+            <p>While not necessarily an Internet game, The Button was a reddit social experiment created by Josh Wardle on April 1, 2015.</p>
+            <p>There was a big red button with a 60 second timer counting down on it at the top of the reddit subreddit. Everytime you press the button, the timer would reset.</p>
+            <p>The social experiement finally ended on June 5, 2015 when the button finally ticked down to 0 without any presses. The final presser was reddit user, BigGoron who was dubbed "The Pressiah".</p>
+            <p>The experiment ended with 1,008,316 logged button clicks.</p>
+            <p>Link to the Subreddit: <br><br><a href="https://www.reddit.com/r/thebutton/" target="_blank">r/thebutton</a></p>
+        </div>
+
+        <!-- emojis -->
+        <div class="box5">
+            <h2>Emoji Etymology</h2>
+            <p>A loved feature of the internet, emojis didn't always exist:</p>
+            <p>O_O for Surprise, varients to emphasize emotion included O____________O, o_O, o-o, o_o</p>
+            <p>O.O is a little closer to shock, varients: 0.0, o.o, o.O</p>
+            <p>-_- for annoyance and -_-* for anger (asterisk is a bulging vein). A bad day could make a -____________-*****</p>
+            <p>And of course the little faces: (._. ) and ( ._.)</p>
+            <p>Finally we have Ascii Emojis: <br><br><a href="https://asciimoji.com/" target="_blank">ASCIImoji</a></p>
+        </div>
+
+        <!-- rickroll -->
+        <div class="box6">
+            <h2>Rickroll</h2>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img src="images/rickroll.gif" alt="you have been rickrolled" style="width:80px;height:80px;">
+            </a>
+            <p>The infamous rickroll actually originated from 4Chan. Someone created a filter that changed the word egg to duck, so when someone typed eggroll, it would change to duckroll.</p>
+            <p>Someone thought it was funny so they made an image of a duck with wheels. It became a trend to make posts that just linked to the duck with wheels which was dubbed as duckroll</p>
+            <p>-rolling becomes a suffix that means bait and switch prank. Then in 2007, someone posted a link disguised as another video to Rick Astley's, "Never Gonna Give You Up"</p>
+            <p>It becomes a trend and rickrolling becomes one of the most infamous memes ever.</p>
+        </div>
+
+        <!-- click here for pics -->
+        <div class="box7">
+            <h2>Pictures</h2>
+            <p>Click here to look at some pictures pertaining to these random internet things: <br><br><a href="gallery.html">Gallery</a></p>
+        </div>
+
+
+
+        <!-- lets start -->
+        <h2 class="letsstart" style="font-size: 45px;"><b>LET'S START!</b></h2>
+        <a href="about.html" id="howtoplay" style="box-shadow: 5px 7px rgb(188, 1, 1); background-color: rgb(236, 1, 1); color: rgb(60, 6, 130); font-weight: bold;">How to Play</a>
+
+
+        <!-- oliver -->
+        <p class="text1" style="top: 830px; left: 600px;">Hi Adventurer, follow the path and <br> hope luck is on your side today!</p>
+        <img src="images/wizard.png" alt="wizard" style="position: absolute; left: 400px; top: 720px; width: 155px; height: 235px;">
+
+
+
+        <!-- Cavern 1 -->
+        <h3 class="caverns" style="position: absolute; top: 940px; left: 600px;">Cavern 1</h3>
+        <p class="text1" style="top: 1020px; left: 530px;">What crosses the river but doesn't move?</p>
+
+        <button class="answer1" style="top: 1080px; left: 510px; border-radius: 2px;">A feather in the wind</button>
+        <div class="wrong1" style="top: 1110px; left: 510px;">
+            <br> Incorrect. <br> A dragon eats you. <br>
+            <img src="images/dragon.png" alt="dragon">
+        </div>
+        <button class="answer2" style="top: 1080px; left: 710px; border-radius: 2px;">A bridge</button>
+        <img src="images/path.png" alt="stone path" class="correct1" style="top: 1120px; left: 700px;">
+
+
+        <!-- Cavern 2 -->
+        <h3 class="caverns" style="position: absolute; top: 1590px; left: 600px;">Cavern 2</h3>
+        <p class="text1" style="top: 1650px; left: 400px;">What is something that fades over time but some of its residue will always remain?</p>
+
+        <button class="answer1" style="top: 1700px; left: 510px; border-radius: 2px;">Sticky sticker stuff</button>
+        <div class="wrong1" style="top: 1740px; left: 510px;">
+            <br> Incorrect. <br> A pit opens up <br> underneath you. <br>
+            <img src="images/pit.png" alt="a pit" style="width: 200px; height: 100px;">
+        </div>
+        <button class="answer2" style="top: 1700px; left: 710px; border-radius: 2px;">Memories</button>
+        <img src="images/path.png" alt="stone path" class="correct1" style="top: 1740px; left: 700px;">
+
+
+        <!-- Cavern 3 -->
+        <h3 class="caverns" style="position: absolute; top: 2180px; left: 600px;">Cavern 3</h3>
+        <p class="text1" style="top: 2260px; left: 590px;">What hurts dragons?</p>
+
+        <button class="answer2" style="top: 2320px; left: 700px; border-radius: 2px;">A Sword</button>
+        <img src="images/path.png" alt="stone path" class="correct1" style="top: 2360px; left: 690px;">
+        <button class="answer2" style="top: 2320px; left: 500px; border-radius: 2px;">Rainbow Glitter</button>
+        <img src="images/path.png" alt="stone path" class="correct1" style="top: 2360px; left: 500px;">
+
+
+        <!-- Cavern 4 -->
+        <h3 class="caverns" style="position: absolute; top: 2810px; left: 610px;">Cavern 4</h3>
+        <p class="text1" style="top: 2880px; left: 580px;">What rooms can't you enter?</p>
+
+        <button class="answer1" style="top: 2930px; left: 680px; border-radius: 2px;">The Backrooms</button>
+        <div class="wrong1" style="top: 2960px; left: 680px;">
+            <br> Incorrect. <br> Spikes come out from <br>the floor, impaling you <br>
+            <img src="images/spikes.png" alt="metal spikes coming up from the floor">
+        </div>
+        <button class="answer2" style="top: 2930px; left: 540px; border-radius: 2px;">Mushrooms</button>
+        <img src="images/path.png" alt="stone path" class="correct1" style="top: 2970px; left: 530px;">
+
+
+        <!-- Cavern 5 -->
+        <h3 class="caverns" style="position: absolute; top: 3410px; left: 600px;">Cavern 5</h3>
+        <p class="text1" style="top: 3480px; left: 500px;">Avast! A dragon! Quick, Rainbow Glitter or A Sword?</p>
+
+        <button class="answer2" style="top: 3530px; left: 700px; border-radius: 2px;">A Sword</button>
+        <img src="images/path.png" alt="stone path" class="correct1" style="top: 3580px; left: 690px;">
+        <button class="answer2" style="top: 3530px; left: 500px; border-radius: 2px;">Rainbow Glitter</button>
+        <img src="images/path.png" alt="stone path" class="correct1" style="top: 3580px; left: 500px;">
+
+        <h2 style="font-size: 40px; color: rgb(60, 6, 130); position: absolute; top: 4025px; left: 300px;">Congratulations! You won this gold🪙🪙!!</h2>
+        <img src="images/gold.png" alt="pile of gold coins" style="position: absolute; top: 4070px; left: 350px">
+    </div>
+</body>
+</html>
